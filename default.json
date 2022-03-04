@@ -1,0 +1,15 @@
+{
+    "extends": ["config:base"],
+    "labels": ["dependencies"],
+    "packageRules": [{
+        "groupName": "dependencies (non-major)",
+        "matchDepTypes": ["dependencies"],
+        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+        "automerge": true
+    },{
+        "groupName": "devDependencies (non-major)",
+        "matchDepTypes": ["devDependencies"],
+        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+        "automerge": true
+    }]
+}
