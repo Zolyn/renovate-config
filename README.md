@@ -2,6 +2,8 @@
 My personal renovate config.
 
 ## Usage
+Write the following to the Renovate configuration.
+
 ```json
 {
     "extends": ["github>Zolyn/renovate-config"]
@@ -9,4 +11,4 @@ My personal renovate config.
 ```
 
 ## References
-[@SigureMo/renovate-config](https://github.com/SigureMo/renovate-config)
+- [@SigureMo/renovate-config](https://github.com/SigureMo/renovate-config)
