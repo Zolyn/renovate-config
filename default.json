@@ -5,11 +5,13 @@
         "groupName": "dependencies (non-major)",
         "matchDepTypes": ["dependencies"],
         "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-        "automerge": true
+        "automerge": true,
+        "automergeStrategy": "squash"
     },{
         "groupName": "devDependencies (non-major)",
         "matchDepTypes": ["devDependencies"],
         "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-        "automerge": true
+        "automerge": true,
+        "automergeStrategy": "squash"
     }]
 }
