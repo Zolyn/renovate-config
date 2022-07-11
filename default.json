@@ -1,5 +1,6 @@
 {
-    "extends": ["config:base"],
+    "extends": ["config:base", "schedule:daily"],
+    "pin": false,
     "labels": ["dependencies"],
     "packageRules": [{
         "groupName": "dependencies (non-major)",
@@ -10,6 +11,7 @@
     },{
         "groupName": "devDependencies (non-major)",
         "matchDepTypes": ["devDependencies"],
+        "labels": ["dev-dependencies"],
         "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
         "automerge": true,
         "automergeStrategy": "squash"
