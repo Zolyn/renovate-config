@@ -1,5 +1,5 @@
 {
-    "extends": ["config:base", "schedule:daily"],
+    "extends": ["config:base", ":preserveSemverRanges", "schedule:daily"],
     "pin": false,
     "labels": ["dependencies"],
     "packageRules": [{
